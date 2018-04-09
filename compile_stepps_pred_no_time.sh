@@ -1,0 +1,1 @@
+g++ -o pred_stepps_veg_no_time  -O3 -fopenmp  -I ~/cmdstan-2.6.2/stan/src/ -I ~/cmdstan-2.6.2/stan/lib/boost_1.55.0/ -I ~/cmdstan-2.6.2/stan/lib/eigen_3.2.4/ -I ~/cmdstan-2.6.2/stan/lib/gtest_1.7.0/ -I ~/cpp/ ~/cmdstan-2.6.2/src/cmdstan/main.cpp -include ~/pred_kw_kgamma_arfv_nb_notime_262.cpp -L ~/cmdstan-2.6.2/bin -lstanc -lrt
